@@ -1,15 +1,18 @@
 import React from 'react';
 import '../App.css';
 import Logo from './Logo'
+import Menu1 from './Menu1'
+import Menu2 from './'
 
-function Footer() {
+function Footer(props) {
   return (
-    <div className='card text-center'>
-      <div className='card-footer'>
+    <footer>
+      <div className='container'>
         <Logo />
-        Footer
+        <Menu1 menuItems1={props.menuItems1} />
+        <Menu2 menuItems2={props.menuItems2} />
       </div>
-    </div>
+    </footer>
   );
 }
 

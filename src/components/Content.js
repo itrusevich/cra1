@@ -1,7 +1,7 @@
 import React from 'react';
 import '../App.css';
 
-function Body() {
+function Content() {
   let name = 'Initial'
   const buttonClickHandler = (value) => {
     console.log('Clicked!' + name)
@@ -29,4 +29,4 @@ function Body() {
   );
 }
 
-export default Body;
+export default Content;

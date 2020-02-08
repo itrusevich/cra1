@@ -1,17 +1,17 @@
 import React from 'react';
 import '../App.css';
-import Menu from './header/Menu'
+import Menu1 from './Menu1'
 import Logo from './Logo'
 
 
 function Header(props) {
   return (
-    <div className='card text-center'>
-      <div className='card-header'>
+    <header>
+      <div className='container'>
         <Logo />
-        <Menu menuItems={props.menuItems} />
+        <Menu1 menuItems1={props.menuItems1}/>
       </div>
-    </div>
+    </header>
   );
 }
 
