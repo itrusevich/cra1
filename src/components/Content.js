@@ -18,11 +18,11 @@ function Content() {
 
         <label>
           {name}:
-          <input name={name} type="text" onChange={inputHandler}/>
+          <input name={name} type="text" className="form-control" onChange={inputHandler}/>
         </label>
 
-        <button onClick={() => buttonClickHandler(1)}>Add One</button>
-        <button onClick={() => buttonClickHandler(2)}>Add Two</button>
+        <button type="button" className="btn-sm btn-secondary mr-3 ml-3" onClick={() => buttonClickHandler(1)}>Add One</button>
+        <button type="button" className="btn-sm btn-secondary" onClick={() => buttonClickHandler(2)}>Add Two</button>
 
       </div>
     </main>
