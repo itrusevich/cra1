@@ -8,7 +8,7 @@ function Menu() {
       <ul className='nav justify-content-left'>
         <li className='nav-item'>
           <a
-            className='nav-link active py-md-4 mr-3 ml-3'
+            className='nav-link active py-md-4 mr-3'
             href='#MenuItem1'
           >
             MenuItem1
