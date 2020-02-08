@@ -10,16 +10,18 @@ function Footer(props) {
     <div className="card-footer">
       <div className='container'>
         <div className="row">
-          <div className="col-sm-3">
+          <div className="col-sm-1">
             <Logo/>
           </div>
-          <div className="col-sm-3">
+          <div className="col-sm-11">
             <Menu1 menuItems1={props.menuItems1}/>
           </div>
-          <div className="col-sm-3">
-            <Menu2 menuItems2={props.menuItems2}/>
+          <div className="col-sm-1">
           </div>
-          <div className="col-sm-3">
+          <div className="col-sm-11">
+            <Menu2 menuItems2={props.menuItems2} />
+          </div>
+          <div className="col">
             <Text/>
           </div>
         </div>
