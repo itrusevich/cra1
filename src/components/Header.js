@@ -1,13 +1,15 @@
 import React from 'react';
 import '../App.css';
 import Menu from './header/Menu'
+import Logo from './Logo'
 
 
-function Header() {
+function Header(props) {
   return (
     <div className='card text-center'>
       <div className='card-header'>
-        <Menu/>
+        <Logo />
+        <Menu menuItems={props.menuItems} />
       </div>
     </div>
   );
