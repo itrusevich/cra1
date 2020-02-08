@@ -6,7 +6,7 @@ function Menu1(props) {
   return (
     <nav>
       <ul className='nav justify-content-left'>
-        {props.map(el => <MenuItem key={el.text} menuItem={el}/>)}
+        {props.menuItems1.map(el => <MenuItem key={el.text} menuItem={el}/>)}
       </ul>
     </nav>
   );

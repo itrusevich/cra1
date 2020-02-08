@@ -7,7 +7,7 @@ function MenuItem(props) {
   return (
         <li className='nav-item'>
           <a
-            className='nav-link active py-md-4 mr-3'
+            className='nav-link active'
             href={props.menuItem.link}
           >
             {props.menuItem.text}
