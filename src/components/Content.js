@@ -1,10 +1,12 @@
 import React from 'react';
 import '../App.css';
 
-function Content() {
-  let name = 'Initial'
+function Content(props) {
+
+  let name = 'Initial';
+
   const buttonClickHandler = (value) => {
-    console.log('Clicked!' + name)
+    props.bc(name + value);
   }
 
   const inputHandler = (e) => {
