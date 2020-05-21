@@ -7,6 +7,8 @@ function Counter(props) {
 
   const countChangePlusHandler = () => {
     setCount(count + 1);
+
+
     props.countChanges(count + 1);
   }
 
